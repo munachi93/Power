@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*reset*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Piedra&display=swap");
+
+body{
+  margin: 0;
+}
+nav ul{
+  list-style-type:none;
+  padding: 0;
+  /*margin: 0;*/
+  
+}
+
+/*navigation style*/
+
+nav ul{
+  display: flex;
+  margin: 0.5;
+  justify-content: space-evenly;
+  
+    
+  
+}
+nav li{
+  /*margin: auto;*/
+  flex: auto;
+  
+}
+
+nav a{
+  padding:1em;
+  display: block;
+  
+  background-color: orange;
+  background-image: linear-gradient(90deg, orange, yellow);
+  
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Piedra', cursive;
+  font-size: 18pt;
+  font-weight: bold;
+  
+  border-radius: 120px;
+ 
+}
+nav a:hover{
+  /*background-image: linear-gradient (white, yellow);*/
+  color: white;
+}
+
+nav a:active{
+    background-image: linear-gradient(white, yellow);
+}
+.current{
+  background-image: linear-gradient (white, yellow);
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/** reset**/
+body{
+  margin: 0;
+  
+}
+
+
+/**Header Section*/
+header {
+  display: flex;
+  flex: auto;
+  
+  justify-content: center;
+  
+  align-items: center;
+  
+  height:100vh;
+  margin: 0;
+  
+  /*height: 600px;*/
+  
+  background-color: green;
+  background-image: linear-gradient(270deg, yellow, gray);
+  /*background-image: url(https://picsum.photos/seed/picsum/500/500);*/
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  background-position: center;
+  /*background-blend-mode: hard light;*/
+}
+
+header h1 {
+
+  margin: auto;
+  flex: auto;
+  
+  font-weight: bold;
+  font-size:40pt;
+  
+  font-variant: small-caps;
+  
+  color: black;
+    /*padding: 14rem;
+  */
+  
+  /*text-align: center;*/
+}
+
+footer{
+  text-align: center;
+  
+  
+  background-color: grey;
+  color: yellow;
+}
+/*footer section*/
+
+main {
+  max-width: 150ch;
+}
+
+body {
+  font-family: 'Pangolin', cursive;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  
+  background: #f06d06;
+  color: white;
+  
+  
+ 
+  margin: auto;
+}
+
+main img {
+  width  : 200px;
+  height : 200px;
+  padding: 2px;
+  
+  /**left or right**/
+  float  : left; 
+  margin-right: 15px; /*used to adjust margins*/
+  border: 15px solid black;
+  shape-outside: circle();
+  border-radius: 50%;
+  
+  
+}
+header img {
+  width  : 200px;
+  height : 200px;
+  padding: 2px;
+  
+  /**left or right**/
+  float  : left; 
+  margin-right: -150px; /*used to adjust margins*/
+  border: 15px solid black;
+  shape-outside: circle();
+  border-radius: 50%;
+}
+    </style>
+</head>
+<body> 
+    <!--content-->
+<nav>
+    <ul>
+      <li><a href = "about">About</a></li>
+      <li><a href = "xontact">Contact</a></li>
+      <li><a href = "gallery">Gallery</a></li>
+      <li><a href = "Register">Register</a></li>
+    </ul>
+</nav>
+
+
+<header>
+   <img src= "https://picsum.photos/id/454/200/250" alt = "picture" >
+  <h1>STAMPEDE</h1>
+ 
+  
+</header>
+<main>
+<img src = "https://picsum.photos/id/454/300/300" alt = "picture" >
+
+<h2>Calgary Stampede</h2>
+
+<p class="intro"> The Calgary Stampede is an annual <a href = "https://en.wikipedia.org/wiki/Rodeo"> rodeo <a/>, exhibition, and festival held every July in Calgary, Alberta, Canada. The ten-day event, which bills itself as "The Greatest Outdoor Show on Earth",[3] attracts over one million visitors per year and features one of the world's largest rodeos, a parade, midway, stage shows, concerts, agricultural competitions, chuckwagon racing, and First Nations exhibitions. <<em>In 2008, the Calgary Stampede was inducted into the ProRodeo Hall of Fame.[4]</em> </p>
+
+<p>The event's roots are traced to 1886 when the Calgary and District Agricultural Society held its first fair. In 1912, American promoter Guy Weadick organized his first rodeo and festival, known as the Stampede. He returned to Calgary in 1919 to organize the Victory Stampede in honour of soldiers returning from World War I. Weadick's festival became an annual event in 1923 when it merged with the Calgary Industrial Exhibition to create the Calgary Exhibition and Stampede. <p>
+  
+<ol>
+  <li>Organized by thousands of volunteers and supported by civic leaders, the Calgary Stampede has grown into one of the world's richest rodeos, one of Canada's largest festivals, and a significant tourist attraction for the city.</li> <li>Rodeo and chuckwagon racing events are televised across Canada.</li> However, both have been the target of increasing international criticism by animal welfare groups and politicians concerned about particular events as well as animal rights organizations seeking to ban rodeo in general.</ol> 
+  <p>Calgary's national and international identity is tied to the event. It is known as the "Stampede City", carries the informal nickname of "Cowtown", and the local Canadian Football League team is called the Stampeders. The city takes on a party atmosphere during Stampede: office buildings and storefronts are painted in cowboy themes, residents don western wear, and events held across the city include hundreds of pancake breakfasts and barbecues. </p>
+
+<table style="width:30%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+  
+  <main></main>
+  
+  <footer>
+    &copy; 2020 city of calgary
+  </footer>
+  
+</body>
+</html>
+
+
+
